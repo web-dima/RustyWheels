@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 a.zabludilca {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+h1.section__title {
+    text-align: center;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+h1.section__title:first-child {
+    margin-top: 20px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+button {
+    align-self: start;
+    padding: 10px;
+}
+
+label {
+    align-self: start;
+}
